@@ -62,21 +62,4 @@ export class CreateComponent implements OnInit {
     this.file = event.target.files[0];
   }
 
-  async getImage() {
-    if (this.file) {
-      const data = new FormData();
-      data.append('name', this.file.name);
-      data.append('file', this.file);
-      console.log(data);
-      try {
-       this.response  = await this.apiService.uploadFile(data);
-          console.log(this.response);
-          this.post.picture = this.response;
-      } catch (error) {
-        console.error(error);
-      }
-    }
-  }
-
-
 }

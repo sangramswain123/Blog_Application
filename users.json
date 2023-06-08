@@ -1,0 +1,57 @@
+[{
+  "_id": {
+    "$oid": "645e0517c7825b4f7d2d5b34"
+  },
+  "name": "Sangram Swain",
+  "email": "sangram@gmail.com",
+  "password": "$2b$10$mbXjLFpY0ycpx5eGHTR3TuLa69nkO.NLv0tBINCoz8mDMbmNo4Q5O",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "645e2c3257a4b56c43f135cb"
+  },
+  "name": "Balaram Swain",
+  "email": "balaram@gmail.com",
+  "password": "$2b$10$1ofH48WFAXtMGDOic0qwcu6yvyS1sc.le//UNAj.bKD8MgOrRtkQa",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "646c9486459bd07232e9adf5"
+  },
+  "name": "Rahul Maurya",
+  "email": "rahul@gmail.com",
+  "password": "$2b$10$aX2y1Mfdu2sstjk3WatEP.CqeZZs7OAkyg.eQi9jy3HQIzobozFty",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "646edcd4a15203f7d1ecc1d6"
+  },
+  "name": "Susil Swain",
+  "email": "susil@gmail.com",
+  "password": "$2b$10$NRAZ5DsN4CspuFzI2tCdx.UhJpWoEWUsqoPUVRb3vzPAihWURLhCS",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64781aef5742ae444996b79c"
+  },
+  "name": "Rohan Verma",
+  "email": "rohan@gmail.com",
+  "password": "$2b$10$0bu/G6.tlYuBexCuMKC.xu9v8EdPnYLtfdDKZNCxXTN7v7rxUinBy",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64815673f32377b10873ca72"
+  },
+  "name": "Jitun Pradhan",
+  "email": "jitun@gmail.com",
+  "password": "$2b$10$uKusaV2ZntefZtGLKJhOIe0Wyk/7F7zX73SAQnZlzaFkSlt3E9jVC",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "648196fea690b572ed69e522"
+  },
+  "name": "Sandeep Samal",
+  "email": "sandeep@gmail.com",
+  "password": "$2b$10$NEScWMZgfUPx.DQriU3qy.A0cZAsmUY3ihCLy3oYrJn0XUbhKx0K2",
+  "__v": 0
+}]
