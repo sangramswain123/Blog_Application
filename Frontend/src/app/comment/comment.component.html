@@ -1,0 +1,19 @@
+<div>
+    <div class="container">
+      <textarea rows="5" placeholder="Comment here....." [formControl]="commentControl" class="textarea"></textarea>
+      <button type="button" (click)="createComment()" class="button">Post</button>
+    </div>
+    <div>
+        <h2>comments</h2>
+      <div *ngFor="let comment of comments" class="comment-container">
+        <div class="comment">
+          <span class="comment-name">{{ comment.name }}</span>
+          <span class="comment-date">{{ comment.date | date: 'EEE MMM d yyyy' }}</span>
+          <button *ngIf="comment.name === account.name" type="button" (click)="deleteComment(comment._id)" class="comment-delete">Delete</button>
+        </div>
+        <p>{{ comment.comments }}</p>
+      </div>
+    </div>
+  </div>
+  
+  

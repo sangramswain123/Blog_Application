@@ -1,0 +1,49 @@
+
+<div class="component">
+        <ng-container *ngIf="account === 'login'">
+          <div class="wrapper">
+            <h2>Login</h2>
+            <form (ngSubmit)="loginUser()">
+              <div *ngIf="loginError" class="error-message">
+                Username or password is incorrect.
+              </div>
+              <label>Email:</label>
+              <input type="email" [(ngModel)]="credentials.email" name="email" required>
+
+              <label>Password:</label>
+              <input type="password" [(ngModel)]="credentials.password" name="password" required>
+
+              <button type="submit">Log In</button>
+            </form>
+            <p class="text">OR</p>
+            <button mat-raised-button class="accent" (click)="toggleSignup()">Create an account</button>
+          </div>
+        </ng-container>
+
+        <ng-container *ngIf="account === 'signup'">
+          <div class="wrapper">
+            <h2>Signup</h2>
+            <form (ngSubmit)="signupUser()">
+              <div *ngIf="signupSuccess" class="success-message">
+                Signup successful!
+              </div>
+              <div *ngIf="signupError" class="error-message">
+                Error while signing up the user.
+              </div>
+              <label>Name:</label>
+              <input type="text" [(ngModel)]="user.name" name="name" required>
+
+              <label>Email:</label>
+              <input type="email" [(ngModel)]="user.email" name="email" required>
+
+              <label>Password:</label>
+              <input type="password" [(ngModel)]="user.password" name="password" required>
+
+              <button type="submit">Sign Up</button>
+            </form>
+
+            <p class="text">OR</p>
+            <button mat-raised-button class="accent" (click)="toggleSignup()">Already have an account</button>
+          </div>
+        </ng-container>
+  </div>

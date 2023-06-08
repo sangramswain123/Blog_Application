@@ -1,0 +1,54 @@
+
+
+   .container {
+    margin: 50px 100px;
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      margin: 0;
+    }
+  }
+  
+  .image {
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+  }
+  
+  .form-control {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .add-icon {
+    font-size: 32px;
+    color: #000;
+    cursor: pointer;
+  }
+  
+  .input-text {
+    flex: 1;
+    margin: 0 30px;
+    font-size: 25px;
+  }
+  
+  .publish-button {
+    padding: 8px 16px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .textarea {
+    width: 100%;
+    border: none;
+    margin-top: 50px;
+    font-size: 18px;
+    resize: vertical;
+    outline: none;
+  }
+  

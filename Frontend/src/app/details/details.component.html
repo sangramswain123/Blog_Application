@@ -1,0 +1,24 @@
+<div class="container">
+    <img [src]="url" alt="post" class="image" />
+    <div class="float-right">
+      <ng-container *ngIf="account.email === post.email">
+        <a [routerLink]="'/update/' + post._id">
+          <button class="edit-icon" >Update</button>
+        </a>
+        <button class="delete-icon" (click)="deleteBlog()">Delete</button>
+      </ng-container>
+    </div>
+    <h1 class="heading">{{ post.title }}</h1>
+  
+    <div class="author">
+      <a [routerLink]="['/home']" [queryParams]="{ email: post.email }" class="author-link">
+        <p>Author: <span class="author-username">{{ post.email }}</span></p>
+      </a>
+      <p class="created-date">{{ post.createdDate | date }}</p>
+    </div>
+  
+    <p>{{ post.description }}</p>
+
+    <app-comment></app-comment>
+  </div>
+  

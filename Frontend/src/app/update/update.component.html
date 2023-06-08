@@ -1,0 +1,12 @@
+<div class="container">
+    <img [src]=" url" alt="post" />
+
+      <div class="form-control">
+        <input type="text" name="title" placeholder="Title" [(ngModel)]="post.title" />
+        <input type="text" class="input-text" name="category" placeholder="Category" [(ngModel)]="post.categories" />
+        <button class="publish-button" (click)="updateBlogPost()">Update</button>
+      </div>
+  
+    <textarea rows="5" placeholder="Tell your story..." [(ngModel)]="post.description" name="description"></textarea>
+  </div>
+  

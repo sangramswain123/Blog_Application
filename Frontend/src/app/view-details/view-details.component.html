@@ -1,0 +1,12 @@
+<div class="container">
+    <img [src]="url" alt="post" class="image" />
+    <h1 class="heading">{{ post.title }}</h1>
+    <div class="author">
+      <a [routerLink]="['/']" class="author-link">
+        <p>Author: <span class="author-username">{{ post.email }}</span></p>
+      </a>
+      <p class="created-date">{{ post.createdDate | date }}</p>
+    </div>
+  
+    <p>{{ post.description }}</p>
+  </div>

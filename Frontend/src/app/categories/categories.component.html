@@ -1,0 +1,21 @@
+<div class="container">
+    <a href="/create" class="btn btn-primary mb-4">Create Blog</a>
+
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th>
+            <a href="/home">All Categories</a>
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let category of categories">
+          <td >
+            <a href="home/?category={{ category.type }}">{{ category.type }}</a>
+          </td>
+        </tr>   
+      </tbody>
+    </table>
+  </div>
+

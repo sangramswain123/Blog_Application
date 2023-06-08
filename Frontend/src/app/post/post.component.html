@@ -1,0 +1,20 @@
+<div *ngIf="posts.length; else noPosts" class="post-container">
+    <div class="post" *ngFor="let post of posts">
+      <a [routerLink]="['details', post._id]" class="post-link">
+        <div class="post-image">
+          <img [src]="'https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=752&q=80'" alt="Post Image">
+        </div>
+        <div class="post-details">
+          <p class="post-category">{{ post.categories }}</p>
+          <h3 class="post-title">{{ post.title | slice:0:20 }}{{ post.title.length > 20 ? '...' : '' }}</h3>
+          <p class="post-author">Author: {{ post.email }}</p>
+          <p class="post-description">{{ post.description | slice:0:100 }}{{ post.description.length > 100 ? '...' : '' }}</p>
+        </div>
+      </a>
+    </div>
+  </div>
+  
+  <ng-template #noPosts>
+    <p class="no-posts">No data is available for the selected category</p>
+  </ng-template>
+  

@@ -1,0 +1,17 @@
+
+<div class="container">
+  <img [src]="url" alt="post" class="image" />
+
+  <div class="form-control">
+    <label for="fileInput">
+      <span class="add-icon"></span>
+    </label>
+    <!-- <input type="file" id="fileInput"  (change)="handleFileInput($event)" />
+    <button type="button" (click)="getImage()">Upload</button> -->
+    <input type="text" class="input-text" name="title" placeholder="Title" [(ngModel)]="post.title" />
+    <input type="text" class="input-text" name="category" placeholder="Category" [(ngModel)]="post.categories" />
+    <button class="publish-button" (click)="savePost()">Publish</button>
+  </div>
+
+  <textarea class="textarea" rows="5" placeholder="Tell your story..." name="description" [(ngModel)]="post.description"></textarea>
+</div>
