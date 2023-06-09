@@ -1,0 +1,133 @@
+[{
+  "_id": {
+    "$oid": "64804511b2d5738fe6817046"
+  },
+  "name": "Sangram Swain",
+  "postId": "6478e07f234f2276bab6a3ad",
+  "date": {
+    "$date": "2023-06-07T08:51:11.502Z"
+  },
+  "comments": "This is about computer",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64804855b2d5738fe6817068"
+  },
+  "name": "Rahul Maurya",
+  "postId": "6478e07f234f2276bab6a3ad",
+  "date": {
+    "$date": "2023-06-07T09:05:06.059Z"
+  },
+  "comments": "good article",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64804b812cdcedb2c7e4abd2"
+  },
+  "name": "Sangram Swain",
+  "postId": "6478e07f234f2276bab6a3ad",
+  "date": {
+    "$date": "2023-06-07T09:18:33.434Z"
+  },
+  "comments": "great article",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "648052652cdcedb2c7e4ac45"
+  },
+  "name": "Sangram Swain",
+  "postId": "6478e07f234f2276bab6a3ad",
+  "date": {
+    "$date": "2023-06-07T09:47:54.492Z"
+  },
+  "comments": "comment works",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "648065d0d1ea5478bf4e9f00"
+  },
+  "name": "Sangram Swain",
+  "postId": "6478e07f234f2276bab6a3ad",
+  "date": {
+    "$date": "2023-06-07T11:11:01.919Z"
+  },
+  "comments": "computer",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64813f72f32377b10873ca6f"
+  },
+  "name": "Sangram Swain",
+  "postId": "647d7514b51eda85aa037e2e",
+  "date": {
+    "$date": "2023-06-08T02:39:24.652Z"
+  },
+  "comments": "good post",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "648197fea690b572ed69e536"
+  },
+  "name": "Sandeep Samal",
+  "postId": "648197d7a690b572ed69e52f",
+  "date": {
+    "$date": "2023-06-08T08:57:10.013Z"
+  },
+  "comments": "this is about fashion",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64823536b477cfe1c82dedeb"
+  },
+  "name": "Sangram Swain",
+  "postId": "648225c4b477cfe1c82dedc8",
+  "date": {
+    "$date": "2023-06-08T20:05:15.971Z"
+  },
+  "comments": "According to Odisha government 288 People are dead and more than 1000 are injured",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6482359eb477cfe1c82dedf1"
+  },
+  "name": "Sangram Swain",
+  "postId": "6481d3dab477cfe1c82ded8f",
+  "date": {
+    "$date": "2023-06-08T20:08:30.644Z"
+  },
+  "comments": "In reality the actual number is not 32,000 , the actual number is in double digit.\n",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64823653b477cfe1c82dedf7"
+  },
+  "name": "Sangram Swain",
+  "postId": "64815ae3079a0ee75d567d7a",
+  "date": {
+    "$date": "2023-06-08T20:10:17.293Z"
+  },
+  "comments": "In day 2 Australia completely dominated on India",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "648236f9b477cfe1c82dedfd"
+  },
+  "name": "Sangram Swain",
+  "postId": "6481d670b477cfe1c82deda5",
+  "date": {
+    "$date": "2023-06-08T20:15:30.536Z"
+  },
+  "comments": "Very thrilling story",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "648239a3b477cfe1c82dee1a"
+  },
+  "name": "Rohan Verma",
+  "postId": "648225c4b477cfe1c82dedc8",
+  "date": {
+    "$date": "2023-06-08T20:26:03.881Z"
+  },
+  "comments": "According to local people more than 500 life was gone on this train tragedy.\n",
+  "__v": 0
+}]
